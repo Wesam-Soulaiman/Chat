@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 import RTL from "./components/global/RTL";
 import { router } from "./router";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   const { i18n } = useTranslation();
@@ -15,6 +16,7 @@ function App() {
   return (
     <RTL>
       <RouterProvider router={router} />
+      <Toaster />
     </RTL>
   );
 }
