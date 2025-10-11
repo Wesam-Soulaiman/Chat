@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router";
 import ChatLayout from "../layouts/ChatLayout";
-import ChatPage from "../pages/ChatPage";
+import ChatPage from "../pages/ChatPage/ChatPage";
 import LoginPage from "../pages/LoginPage";
 import SignUpPage from "./../pages/SignUpPage";
 import ProtectedLayout from "../layouts/ProtectedLayout";
